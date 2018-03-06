@@ -6,8 +6,8 @@ namespace MassReplace
 {
   public class Controller
   {
-    public const string Folder = @"\\caselle2\DATA2\QA\TestComplete Projects";
-    public IProcess Process = new UpdateYearProcess();
+    public const string Folder = "";
+    public IProcess Process = null;
 
     public static Controller Create()
     {
